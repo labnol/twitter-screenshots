@@ -1,0 +1,32 @@
+.screenshot-guru {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 6px;
+  height: 100%; /* Ensure full height of the container */
+}
+
+.screenshot-guru-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 36px;
+  min-height: 36px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border-radius: 50%;
+  color: #536471;
+  background-color: transparent;
+  padding: 2px;
+}
+
+.screenshot-guru-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.screenshot-guru-inner:hover {
+  color: #2494f4;
+  background-color: rgba(29, 155, 240, 0.1);
+}

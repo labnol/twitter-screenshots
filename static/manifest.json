@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Twitter Screenshots",
+  "author": "Screenshots Guru",
+  "description": "Easily capture beautiful, high-resolution screenshot images of Tweets right inside the Twitter website",
+  "homepage_url": "https://screenshot.guru/",
+  "version": "7.0",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*", "https://x.com/*"],
+      "js": ["content.js", "html2canvas.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "icons": {
+    "16": "16.png",
+    "48": "48.png",
+    "128": "128.png"
+  }
+}
