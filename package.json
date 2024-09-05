@@ -1,6 +1,6 @@
 {
   "name": "twitter-screenshots",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add button in Twitter to take screenshots of tweets",
   "private": true,
   "browserslist": "last 4 Chrome versions",
